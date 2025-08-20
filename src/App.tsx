@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import DiskPerformanceDashboard from './DiskPerformanceDashboard'
+import StorageAnalysisComponent from './StorageAnalysisComponent'
 import './App.css'
 
 function App() {
@@ -65,6 +66,8 @@ function App() {
             </p>
           </div>
         )}
+
+        <StorageAnalysisComponent />
       </div>
     </>
   )
